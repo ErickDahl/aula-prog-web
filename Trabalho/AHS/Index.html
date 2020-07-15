@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Erick" content="American Horror Story">
+	<link rel="icon" href="imagens\ico.jpg">
+	
+	<style type="text/css">
+		.borda {
+			border-width:1px;
+			border-style:solid;
+		}
+		.menu {
+			width:250px;
+		}
+		.comando {
+			font-family:monospace;
+			color:white;
+			background-color:black;
+			padding-left:4px;
+			padding-right:4px;
+			border-radius:4px;
+		}
+		.bordaVerde{
+			margin-left:5px;
+			padding-right:20px;
+		}
+		.bgCinza {
+			background-color:#D3D3D3;
+		}
+		.fig300{
+			width:500px;
+		}
+		 #fundo{
+    		position: absolute;
+  			width: 98.75vw;
+			height: 120vh;
+			background: url("imagens/fundo.jpg") no-repeat 100% 100% / cover;
+  		}
+  		.container{
+  			position: absolute;
+  			margin: 1px;
+  		}
+  		.texto {
+	      position: absolute;
+	      color:black;
+	      text-align: center;
+	      top: 130px;
+	      left: 90px;
+	      width: 1200px;
+	      line-height: 50px;
+	      height: 50px;
+	      font-size: 50px;
+	      font-family: ahs;
+		}
+		div.container{
+			width:844px;
+			margin:1px auto;
+			font-family:sans-serif;
+		}
+		.logo{
+			width:400px;
+			position:relative;
+			left:50%;
+			top:50%;
+			margin-left:-210px;
+			margin-top:-50px;
+		}
+		@font-face {
+			font-family: ahs;
+			src: url("font/ahs.otf");
+			font-weight: normal;
+  			font-style: normal;
+		}
+	</style>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>American Horror Story</title>
+	
+</head>
+<body>
+	<div id="fundo">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+					</button>
+					<a class="navbar-brand" href="index.html">American Horror Story</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="descricao.html">Sinopse e Descrição</a></li>
+						<li><a href="temporadas.html">Temporadas</a></li>
+						<li><a href="videos.html">Vídeos</a></li>
+						<li><a href="atores.html">Atores</a></li>
+					</ul>
+				</div>
+				<div class="texto">
+					Seja Bem-Vindo ao Reino de Terror de American Horror Story
+					<div class="logo"><br>
+						<a href="imagens/logo.png"target="_blank">
+							<img src="imagens/logo.png" alt="Lights" style="width:100%">
+						</a>
+					</div>
+				</div>
+					<audio loop="loop" autoplay="autoplay" volume="20" 
+					src="audio\audio.mp3">	
+				</audio>
+			</div>
+		</nav>
+	</div>
+</body>
+</html>	

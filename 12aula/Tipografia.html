@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	<style type="text/css">
+		.borda {
+			border-width:1px;
+			border-style:solid;
+		}
+		.menu {
+			width:250px;
+		}
+		.comando {
+			font-family:monospace;
+			color:white;
+			background-color:black;
+			padding-left:4px;
+			padding-right:4px;
+			border-radius:4px;
+		}
+		.bordaVerde{
+			border-left-color:green;
+			border-left-style:solid;
+			border-left-width:4px;
+			margin-left:10px;
+			padding-left:20px;
+			margin-bottom:10px;
+		}
+		.bgCinza {
+			background-color:#D3D3D3;
+		}
+	</style>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Bootstrap 3 - Aula 1 - Olá Mundo</title>
+	
+</head>
+<body>
+	<div class="container">
+		<h1>Bootstrap:<small>Tipografia</small></h1>
+		<h2>Cabeçalhos</h2>
+		<p>Por padrão,o Bootstrap irá estabilizar os títulos HTML (<span class="comando">h1</span> à <span class="comando">h6</span>) da seguinte maneira:<p>
+		<div class="row bordaVerde bgCinza">
+			<h1>h1 Bootstrap heading (36px)</h1>
+			<h2>h2 Bootstrap heading (30px)</h2>
+			<h3>h3 Bootstrap heading (24px)</h3>
+			<h4>h4 Bootstrap heading (18px)</h4>
+			<h5>h5 Bootstrap heading (14px)</h5>
+			<h6>h6 Bootstrap heading (12px)</h6>
+		</div>
+		<h2>dl<small>-Lista de Descrição</small></h2>	
+		<div class="row bordaVerde bgCinza">
+			<p>O elemento dl indica uma lista de descrição: </p>
+			<dl>
+				<dt> Café </dt>
+					<dd> - bebida quente preta </dd>
+				<dt> Leite </dt>
+					<dd> - bebida fria branca </dd>
+			</dl>
+		</div>
+		<h2>code <small>- Destacando os codigos</small></h2>
+		<div class="row bordaVerde bgCinza">
+			<p> Os snippets inline de código devem ser incorporados ao elemento<span class="comando">code</span><p>
+			<p> Os seguintes elementos HTML: <code> span</code>, <code>seção</code> e <code> div </code> definem uma seção em um documento.</p>
+		</div>
+		<h2>kbd <small>- Entradas de teclado</small></h2>
+		<div class="row bordaVerde bgCinza">
+			<p> Para indicar a entrada que normalmente é inserida pelo teclado, use o elemento kbd: </p>
+			<p> Use <kbd> ctrl + p </kbd> para abrir a caixa de diálogo imprimir<p>
+		</div>
+		<h2>pre <small>- Várias linhas de código</small></h2>
+		<div class="row bordaVerde bgCinza">
+			<p>Para várias linhas de código, use o elemento pré: </p>
+			<pre>
+Texto em um elemento pré 
+é exibido em uma largura fixa
+fonte e preserva
+ambos os espaços e
+quebras de linha.
+			</pre>
+		</div>
+	</div>
+</body>
+</html>	

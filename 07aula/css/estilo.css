@@ -1,0 +1,146 @@
+body{
+	background-color:#ff8c1a;
+	}
+div.container{
+	width:700px;
+	margin:1px auto;
+	font-size:14px;
+	background-color:#e67300;
+	font-family:sans-serif;
+}
+small{
+	font-size:14px;
+	color:gray;
+	text-transform:lowercase;
+}
+h1{
+	font-family:Arial,sans-serif;
+	color:#000033;
+	font-size:36px;
+	text-align:left;
+	margin-left:10px;
+	margin-right:10px;	
+}
+h2{
+	font-family:Arial,sans-serif;
+	color:#0000cc;
+	font-size:32px;
+	text-align:left;
+	margin-left:10px;
+	margin-right:10px;	
+}
+h3{
+	font-family:Arial,sans-serif;
+	color:#1a1aff;
+	font-size:28px;
+	text-align:left;
+	margin-left:10px;
+	margin-right:10px;	
+}
+h4{
+	font-family:Arial,sans-serif;
+	color:#4d4dff;
+	font-size:24px;
+	text-align:left;
+	margin-left:10px;
+	margin-right:10px;	
+}
+h5{
+	font-family:Arial,sans-serif;
+	color:#b3b3ff;
+	font-size:20px;
+	text-align:left;
+	margin-left:10px;
+	margin-right:10px;	
+}
+hr{
+	border-width:1px;
+	margin:1px;
+	padding:0px;
+}
+hr.linha{
+	border-color:red;
+}
+hr.linha_azul{
+	border-color:blue;
+}
+h1.titulo{
+	border-width:2px;
+	border-left-color:black;
+	border-left-style:solid;
+	border-bottom-color:black;
+	border-bottom-style:solid;
+	background-color:gray;
+	color:white;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:15px;
+	text-transform:uppercase;
+}
+h2.subtitulo{
+	border-width:2px;
+	border-bottom-color:black;
+	border-bottom-style:solid;
+	background-color:gray;
+	color:white;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:15px;
+	text-transform:uppercase;	
+}
+h3.subtitulo{
+	border-width:2px;
+	border-bottom-color:black;
+	border-bottom-style:dotted;
+	background-color:gray;
+	color:white;	
+}
+table.horario,table.horario tr,table.horario tr td, table.horario tr th{
+	
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+	width:80%;
+	border-collapse:collapse;
+}
+
+table.horario tr td, table.horario tr th{
+	
+	padding:15px;
+}
+
+table.horario th{
+	text-align:left;
+}
+
+table.horario td{
+	text-align:center;
+}
+
+table.horario caption{
+	
+	font-weight:bolder;
+	color:cornflowerblue;
+	text-align:right;
+	padding-bottom:10px;
+}
+
+table.horario tr th{
+	background-color:royalblue;
+	color:antiquewhite;
+	font-weight:lighter;
+	padding:5px;
+	border:none;
+}
+table.horario tr:nth-child(even){
+	background-color:#ebf0fa;
+}
+table.horario tr:nth-child(odd){
+	background-color:#4275a3;
+}
+table.horario tr:hover{
+	background-color: aqua;
+}
+table.horario tr, table.horario td, table.horario th{
+	border: none;
+}

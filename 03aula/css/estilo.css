@@ -1,0 +1,25 @@
+body{
+	background-color:#ff8c1a;
+	}
+
+div.container{
+	width:700px;
+	margin:1px auto;
+	font-size:14px;
+	background-color:#e67300;
+	font-family:sans-serif;
+}
+h1{
+text-align:center;
+text-transform:uppercase;
+color:#000000;
+border-bottom-style:solid;
+border-width:thin;
+font-size:36px;
+border-color:black;
+}
+small{
+	font-size:14px;
+	color:gray;
+	text-transform:lowercase;
+}

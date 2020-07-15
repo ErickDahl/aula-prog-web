@@ -1,0 +1,11 @@
+body{
+	background-color:#123456;
+	}
+
+div.container{
+	width:700px;
+	margin:15px auto;
+	font-size:14px;
+	background-color:#e6e6e6;
+	font-family:sans-serif;
+}

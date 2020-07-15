@@ -1,0 +1,340 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Erick" content="American Horror Story">
+	<link rel="icon" href="imagens\ico.jpg">
+	
+	<style type="text/css">
+		.borda {
+			border-width:1px;
+			border-style:solid;
+		}
+		.menu {
+			width:250px;
+		}
+		.comando {
+			font-family:monospace;
+			color:white;
+			background-color:black;
+			padding-left:4px;
+			padding-right:4px;
+			border-radius:4px;
+		}
+		.bordaVerde{
+			margin-left:5px;
+			padding-right:20px;
+		}
+		.bgCinza {
+			background-color:#D3D3D3;
+		}
+		.fig{
+			width:200px;
+			margin-left: 500px;
+			margin-top: 25px;
+
+		}
+		 #fundo{
+    		position: absolute;
+  			width: 98.75vw;
+			height: 900vh;
+			background: url("imagens/fundo.jpg") no-repeat 100% 100% / cover;
+  		}
+  		.container{
+  			position: absolute;
+  			margin: 1px;
+  		}
+  		.texto {
+	      position: absolute;
+	      color:white;
+	      text-align: justify;
+	      top: 100px;
+	      left: 80px;
+	      width: 1200px;
+	      line-height: 35px;
+	      height: 5525px;
+	      font-size: 20px;
+	      font-family: Times New Roman;
+		  opacity:.9;
+		  background-color:black;
+		}
+		div.container{
+			width:844px;
+			margin:1px auto;
+			font-family:sans-serif;
+		}
+		.logo{
+			width:400px;
+			position:relative;
+			left:50%;
+			top:50%;
+			margin-left:-210px;
+			margin-top:-50px;
+		}
+		@font-face {
+			font-family: ahs;
+			src: url("font/ahs.otf");
+			font-weight: normal;
+  			font-style: normal;
+		}
+		.titulo{
+		  position: absolute;
+	      color:white;
+	      text-align: center;
+	      top: 350px;
+	      left: 0px;
+	      width: 1200px;
+	      line-height: 35px;
+	      font-size: 20px;
+	      font-family: Times New Roman;
+		  opacity:.9;
+		}
+		.titulo2{
+		  position: absolute;
+	      color:white;
+	      text-align: center;
+	      top: 975px;
+	      left: 0px;
+	      width: 1200px;
+	      line-height: 35px;
+	      font-size: 20px;
+	      font-family: Times New Roman;
+		  opacity:.9;
+		}
+		.titulo3{
+		  position: absolute;
+	      color:white;
+	      text-align: center;
+	      top: 1625px;
+	      left: 0px;
+	      width: 1200px;
+	      line-height: 35px;
+	      font-size: 20px;
+	      font-family: Times New Roman;
+		  opacity:.9;
+		}
+		.titulo4{
+		  position: absolute;
+	      color:white;
+	      text-align: center;
+	      top: 2250px;
+	      left: 0px;
+	      width: 1200px;
+	      line-height: 35px;
+	      font-size: 20px;
+	      font-family: Times New Roman;
+		  opacity:.9;
+		}
+		.titulo5{
+		  position: absolute;
+	      color:white;
+	      text-align: center;
+	      top: 2840px;
+	      left: 0px;
+	      width: 1200px;
+	      line-height: 35px;
+	      font-size: 20px;
+	      font-family: Times New Roman;
+		  opacity:.9;
+		}
+		.titulo6{
+		  position: absolute;
+	      color:white;
+	      text-align: center;
+	      top: 3460px;
+	      left: 0px;
+	      width: 1200px;
+	      line-height: 35px;
+	      font-size: 20px;
+	      font-family: Times New Roman;
+		  opacity:.9;
+		}
+		.titulo7{
+		  position: absolute;
+	      color:white;
+	      text-align: center;
+	      top: 4105px;
+	      left: 0px;
+	      width: 1200px;
+	      line-height: 35px;
+	      font-size: 20px;
+	      font-family: Times New Roman;
+		  opacity:.9;
+		}
+		.titulo8{
+		  position: absolute;
+	      color:white;
+	      text-align: center;
+	      top: 4750px;
+	      left: 0px;
+	      width: 1200px;
+	      line-height: 35px;
+	      font-size: 20px;
+	      font-family: Times New Roman;
+		  opacity:.9;
+		}
+		.titulo9{
+		  position: absolute;
+	      color:white;
+	      text-align: center;
+	      top: 5390px;
+	      left: 0px;
+	      width: 1200px;
+	      line-height: 35px;
+	      font-size: 20px;
+	      font-family: Times New Roman;
+		  opacity:.9;
+		}
+	</style>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>American Horror Story</title>
+	
+</head>
+<body>
+	<div id="fundo">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+					</button>
+					<a class="navbar-brand" href="index.html">American Horror Story</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="descricao.html">Sinopse e Descrição</a></li>
+						<li><a href="temporadas.html">Temporadas</a></li>
+						<li><a href="videos.html">Vídeos</a></li>
+						<li><a href="atores.html">Atores</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="texto">
+			<div class="fig">
+				<div class="thumbnail">
+					<a href="imagens/capa1.jpg"target="_blank">
+						<img src="imagens/capa1.jpg" alt="Lights" style="width:100%">
+					</a>
+				</div>
+			</div>
+			<div class="titulo">
+			1ª Temporada: Murder House (2011)
+			</div>
+			<br><br>
+			A primeira temporada, intitulada Murder House, tem como tema principal a infidelidade. Explorando temas como o amor, a família, e o perdão. A história ocorre em 2011, seguindo a família Harmon do psiquiatra Ben, sua esposa Vivien, e sua filha adolescente Violet que se mudam de Boston para Los Angeles depois de que Vivien tem um aborto, e Ben tem um caso extraconjugal. Os Harmon se mudam para uma mansão restaurada e logo se encontram com os ex-residentes da casa, os Langdon: Constance Langdon, e seus dois filhos, Tate, e Addie, e o desfigurado Larry Harvey. Ben e Vivien tentam reacender seu relacionamento, como Violet, sofrendo de depressão, encontra conforto com Tate. Os Langdon e Larry frequentemente influenciam a vida dos Harmon, como a família descobre que a casa é assombrada pelos fantasmas de seus antigos habitantes.
+			<br><br>
+			<div class="fig">
+				<div class="thumbnail">
+					<a href="imagens/capa2.jpg"target="_blank">
+						<img src="imagens/capa2.jpg" alt="Lights" style="width:100%">
+					</a>
+				</div>
+			</div>
+			<div class="titulo2">
+			2ª temporada: Asylum (2012–2013)
+			</div>
+			<br><br>
+			A segunda temporada, intitulada Asylum, tem como tema a sanidade. A história se passa em 1964 e acompanha os pacientes, médicos e freiras que ocupam a Instituição Mental Briarcliff, fundada para tratar e abrigar os criminosos insanos. Os administradores que dirigem a instituição incluem a severa Irmã Jude, a segundo em comando Irmã Mary Eunice e o fundador da ordem, o Dom Timothy Howard. Os médicos encarregados de tratar os pacientes no manicômio incluem o psiquiatra Dr. Oliver Thredson e o sádico cientista Dr. Arthur Arden. Os pacientes, muitos dos quais afirmam ser injustamente institucionalizados, incluem a jornalista lésbica Lana Winters, o acusado de assassino em série Kit Walker, e a suposta assassina Grace. Há também elementos espirituais e científicos que manipulam os habitantes do Briarcliff, incluindo possessão demoníaca e extraterrestres.
+			<br><br>
+			<div class="fig">
+				<div class="thumbnail">
+					<a href="imagens/capa3.jpg"target="_blank">
+						<img src="imagens/capa3.jpg" alt="Lights" style="width:100%">
+					</a>
+				</div>
+			</div>
+			<div class="titulo3">
+			3ª temporada: Coven (2013–2014)
+		    </div>
+			<br><br>
+			A terceira temporada, intitulada Coven, tem como assunto principal a opressão, especificamente das minorias. Mais de 300 anos se passaram desde os dias dos julgamentos de Salem, e o remanescente que conseguiu escapar está à beira da extinção e correndo perigo. Misteriosos ataques contra as bruxas estão aumentando e jovens garotas seguem para uma escola especial aberta em Nova Orleans, com o objetivo de aprender novas formas de proteção. Uma das novas alunas é a recém-chegada Zoe, que guarda um terrível segredo. Alarmada pelas recentes agressões, Fiona, a grande líder que estava afastada há um longo tempo, retorna para a cidade determinada a proteger o grupo das bruxas. A temporada possui elementos espirituais e relacionados com feitiçaria, incluindo caça às bruxas, feiticeiras, gnomos e vodu.
+			<br><br>
+			<div class="fig">
+				<div class="thumbnail">
+					<a href="imagens/capa4.jpg"target="_blank">
+						<img src="imagens/capa4.jpg" alt="Lights" style="width:100%">
+					</a>
+				</div>
+			</div>
+			<div class="titulo4">
+			4ª temporada: Freak Show (2014–2015)
+		    </div>
+			<br><br>
+			A quarta temporada, intitulada Freak Show, tem como ideia central principal a discriminação, com a história se tratando de acontecimentos em torno de um espetáculo de aberrações. As gravações dessa temporada foram realizadas em Nova Orleans, no entanto, a história se passa em Jupiter, Flórida, no ano de 1952. Ryan Murphy disse: "Se você olhar historicamente o que aconteceu no ano de 1952, há mais algumas pistas nesse ano. É um filme de época. Tentamos fazer o oposto do que fizemos antes. Jessica Lange já começou a praticar seu alemão, por isso estou muito animado!".
+			<br><br>
+			<div class="fig">
+				<div class="thumbnail">
+					<a href="imagens/5.jpg"target="_blank">
+						<img src="imagens/capa5.jpg" alt="Lights" style="width:100%">
+					</a>
+				</div>
+			</div>
+			<div class="titulo5">
+			5ª temporada: Hotel (2015–2016)
+		    </div>
+			<br><br>
+			A quinta temporada, intitulada Hotel, tem como principal tema o vício, passando-se nas dependências de um hotel macabro. O detetive John Lowe investiga uma série de crimes que o leva ao Hotel Cortez, onde ele encontra seu filho que havia desaparecido anos antes. O hotel é ambientado por fantasmas e funcionários que ali vivem. Dentre eles, estão Iris e Liz Taylor, as recepcionistas do hotel; Donovan, filho de Iris; e Sally, uma viciada em drogas que morreu na década de 1990. A proprietária do hotel, a Condessa, é uma vampira que faz de tudo para manter seu status e seus filhos, além de precisar matar sua sede de sangue.
+			<br><br>
+			<div class="fig">
+				<div class="thumbnail">
+					<a href="imagens/capa6.jpg"target="_blank">
+						<img src="imagens/capa6.jpg" alt="Lights" style="width:100%">
+					</a>
+				</div>
+			</div>
+			<div class="titulo6">
+			6ª temporada: Roanoke (2016)
+		    </div>
+			<br><br>
+			A sexta temporada, intitulada Roanoke, tem como assunto principal a exploração. O enredo gira em torno de três partes, a primeira parte é dividida entre o episódio 1 ao 5, falando sobre os acontecimentos retratados por Shelby Miller, Matt Miller e Lee Harris sendo interpretados pelos atores Audrey Tindall, Dominic Banks e Monet Tumuslime. A segunda parte se divide entre os episódios 6 ao 9, com a renovação da série, Shelby, Matt, Lee, Audrey, Dominc, Monet e Rory voltam à casa onde moraram e gravaram, só que todos da produção morrem, sobrevivendo somente um. A terceira parte está abordada com o que ocorreu depois dos acontecimentos da "segunda temporada" da série e o que ocorreu com o sobrevivente de Roanoke.
+			<br><br>
+			<div class="fig">
+				<div class="thumbnail">
+					<a href="imagens/capa7.jpg"target="_blank">
+						<img src="imagens/capa7.jpg" alt="Lights" style="width:100%">
+					</a>
+				</div>
+			</div>
+			<div class="titulo7">
+			7ª temporada: Cult (2017)
+		    </div>
+			<br><br>
+			A sétima temporada, intitulada Cult, tem como tema o medo. Após as eleições presidenciais dos Estados Unidos de 2016, a cidade fictícia de Brookfield Heights, em Michigan, fica dividida. A proprietária do restaurante local, Ally Mayfair-Richards, está completamente perturbada pela vitória de Donald Trump e várias de suas fobias de longa data, incluindo coulrofobia, hemofobia e tripofobia, se intensificam com os recentes acontecimentos e ela tenta conseguir a ajuda de sua esposa, Ivy, e seu psiquiatra, Dr. Rudy Vincent, para curar suas fobias. Um dos residentes de Brookfield Heights, um sociopata manipulador chamado Kai, se alegra com os resultados das eleições e fica inspirado a seguir o poder político. Então, Kai forma um culto para conseguir realizar suas ideologias, contando com a ajuda de seus seguidores; entre eles, sua irmã Winter, os vizinhos Harrison e Meadow, além do detetive Jack Samuels e da repórter local Beverly Hope.
+			<br><br>
+			<div class="fig">
+				<div class="thumbnail">
+					<a href="imagens/capa8.jpg"target="_blank">
+						<img src="imagens/capa8.jpg" alt="Lights" style="width:100%">
+					</a>
+				</div>
+			</div>
+			<div class="titulo8">
+			8ª temporada: Apocalypse (2018)
+		    </div>
+			<br><br>
+			Em 12 de janeiro de 2017, a série foi renovada para uma oitava temporada, que estreou em 12 de setembro de 2018. O criador e produtor executivo da série, Ryan Murphy, anunciou que a temporada se passaria 18 meses no futuro, em outubro de 2019, e contaria com um tom de Asylum e Coven.Inicialmente, Ryan Murphy afirmou que a nona temporada provavelmente seria a temporada do crossover entre Murder House e Coven; no entanto, a oitava temporada foi escolhida para isso. Uma temporada crossover foi anunciada pela primeira vez em 30 de outubro de 2016. Em 19 de julho de 2018, foi anunciado na San Diego Comic-Con que o título da temporada seria Apocalypse. As filmagens da temporada começaram em 16 de junho de 2018.
+			<br><br>
+			<div class="fig">
+				<div class="thumbnail">
+					<a href="imagens/capa9.jpg"target="_blank">
+						<img src="imagens/capa9.jpg" alt="Lights" style="width:100%">
+					</a>
+				</div>
+			</div>
+			<div class="titulo9">
+			9ª temporada: 1984 (2019)
+			</div>
+			<br><br>
+			Em 12 de janeiro de 2017, a série foi renovada para uma nona temporada, prevista para estrear em 18 de setembro de 2019. Em 10 de abril de 2019, Ryan Murphy anunciou que o título da temporada seria 1984.
+		</div>
+	</div>
+</body>
+</html>	
